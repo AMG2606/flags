@@ -1,0 +1,109 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: 'Rajdhani', sans-serif;
+}
+.header{
+    height: 80px;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 2px;
+    position: sticky;
+    top: 0;
+    z-index: 8;
+}
+.header-ukraine{
+    background-image: linear-gradient(blue, yellow);
+}
+.lader-ukraine{
+    height: calc(100vh - 80px);
+    text-align: center;
+    background-image: linear-gradient(blue 0% , blue 50%, yellow 50%, yellow 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: yellow;
+    -webkit-text-stroke: 5px blue;
+}
+.header-sweden{
+    background-image: linear-gradient(blue, yellow, blue);
+}
+.lader-sweden{
+    background-image:linear-gradient(blue 0%,blue 45%, yellow 45%,yellow 55%, blue 55%,blue 100%) ;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+.yellow-line-verticalna{
+    width:100px;
+    height:100%;
+    background-color: yellow;
+    position:absolute;
+    left:25%; 
+    top: 0;
+}
+.header-turkish{
+    background-image: linear-gradient(red, white);
+}
+.lader-turkish{
+    background-color: red;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+.square-tolko-krygliy{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: -100px 0px 0px white;
+}
+.arrow-down{
+    border-top: 50px solid white;
+    /*border-bottom: 50px solid green;*/
+    border-right: 50px solid transparent;
+    border-left:50px solid transparent;
+    display:inline-block;
+    transform: rotate(-18deg);
+}
+.arrow-right{
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    /* border-right: 50px solid transparent; */
+    border-left:50px solid white;
+    display:inline-block;
+    transform: translate(-79px, 19px) rotate(8deg);
+}
+.arrow-left{
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid white;
+    /* border-left:50px solid transparent; */
+    display:inline-block;
+    transform: translate(-138px, 32px) rotate(-44deg);
+    
+}
+.arrow-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.header-kenya{
+    background-image:linear-gradient(black, white, green, white,red)
+}
+.lader-kenya{
+    height: calc(100vh - 80px);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(black 0%, black 30%, white 30%, white 35%, green 35%, green 65%,  white 65%, white 70%, red 70%, red 100%  );
+}
